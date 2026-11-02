@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msf - محرر الفيديوهات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>تطبيق msf لتعديل الفيديوهات</h1>
+        <p>مشروع مفتوح المصدر لتعديل الميديا</p>
+    </header>
+
+    <main>
+        <div class="editor-container">
+            <div class="preview-area">
+                <video id="videoPreview" controls></video>
+            </div>
+            <div class="controls-area">
+                <input type="file" id="videoInput" accept="video/*">
+                <button id="trimBtn">قص الفيديو</button>
+                <button id="exportBtn">تصدير</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
